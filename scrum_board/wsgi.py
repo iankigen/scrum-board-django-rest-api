@@ -1,5 +1,5 @@
 """
-WSGI config for pluralsight_django_angular project.
+WSGI config for scrum_board project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "pluralsight_django_angular.settings")
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "scrum_board.settings")
 
 application = get_wsgi_application()
